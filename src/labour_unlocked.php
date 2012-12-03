@@ -10,12 +10,13 @@ class LabourUnlocked
      * These parameters should be configured with details supplied by Tangent
      */
     private $tokenAuthorizeParams = array(
-      'client_id' => '1_vinnzsc6wis0kw8kgoso04w0wkw8kgksgw4w0w08g0gssss4k',
-      'client_secret' => '5qvrrdko6o840844kssc4ws80cg4wgw44ks44s88cossoggg4o',
+      'client_id' => '1_2990of3rb17o40w8848cck40w0s8ggs4c8ogk00k8w8skg0wwk',
+      'client_secret' => '5rbpx3jdnngg848s8k08wwgcskgwckco8sggkwcc0kw4c0wooo',
       'response_type' => 'code',
+      'grant_type' => 'token',
       'redirect_uri' => 'http://localhost/unlocked-client/authorise.php',
     );
-    private $labourUnlockedHost = "http://unlock2.labour.org.uk";
+    private $labourUnlockedHost = "http://labour-unlocked.local";
 
     /*
      * These parameters are constant for LU2.
